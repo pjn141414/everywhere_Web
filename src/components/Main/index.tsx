@@ -2,7 +2,7 @@ import { MainButton } from 'components/Common/MainButton';
 import MainTemplate from 'components/Common/MainTemplate';
 import styled from 'styled-components';
 import { theme } from 'styles/theme';
-import mainIllu from 'assets/images/main/main_illust.svg';
+import mainIllu from 'assets/images/main_illust.svg';
 
 export const Main = () => {
   return (
@@ -42,7 +42,7 @@ const Container = styled.section`
 `
 
 const Title = styled.div`
-  padding-top: 190px;
+  padding-top: 140px;
   font-size: 50px;
   font-family: 'Pretendard-Bold';
   width: 400px;
@@ -77,7 +77,7 @@ const Image = styled.img`
   position: relative;
   padding-left: 480px;
   width: 650px;
-  padding-top: 120px;
+  padding-top: 70px;
 `
 
 const Button = styled.div`
