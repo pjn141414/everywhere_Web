@@ -23,7 +23,7 @@ export const MainButton = ({
       <StyledButton
         className={className}
         style={style}
-        onClick={() => window.open(`${route}`)}
+        onClick={() => window.location.href = `${route}`}
       >
         {children}
         <FaPlayCircle className='icon' />

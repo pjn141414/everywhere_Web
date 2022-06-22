@@ -16,19 +16,24 @@ const MainTemplate = ({
   }
 
   return (
-    <div>
+    <Container>
       <StyledLogo
         className={className}
         style={style}
+        onClick={() => window.location.href = "/"}
       >
         everywhere
       </StyledLogo>
       <StyledButton onClick={onClickDodamLogin}>
         로그인
       </StyledButton>
-    </div>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  margin-bottom: 70px;
+`
 
 const StyledLogo = styled.span`
   font-family: 'Pretendard-Bold';
